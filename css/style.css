@@ -32,6 +32,18 @@ h2,
 h3 {
   font-weight: 500;
 }
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: #000;
+}
+
+p {
+  font-size: 19px;
+  line-height: 1.5em;
+}
+
 a {
   color: #fff;
   text-transform: uppercase;
@@ -87,6 +99,7 @@ a {
   background-size: 1000px;
 }
 
+/* nav-bar */
 .nav-bar {
   height: 80px;
   line-height: 80px;
@@ -110,6 +123,7 @@ a {
   text-align: right;
 }
 
+/* jumbotron */
 .jumbo {
   position: relative;
   height: 480px;
@@ -127,4 +141,44 @@ a {
   margin-bottom: 30px;
   font-size: 56px;
   color: #fff;
+}
+
+/* MAIN */
+/* efficiency */
+.efficiency {
+  background-color: #d3d3d3;
+  padding: 40px 15px;
+}
+
+.efficiency p {
+  font-size: 20px;
+}
+
+/* info */
+.info {
+  border-bottom: 1px solid grey;
+}
+
+.info-box {
+  width: calc(100% / 3);
+  padding: 40px 20px;
+}
+
+.info-box img {
+  height: 160px;
+  margin-bottom: 30px;
+}
+
+.info-box h3 {
+  color: #7cbb02;
+  font-size: 28px;
+}
+
+.info-box p::before {
+  display: block;
+  margin: 30px auto;
+  content: '';
+  height: 1px;
+  width: 80px;
+  background-color: #808080;
 }
