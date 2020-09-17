@@ -81,7 +81,7 @@ a {
 }
 
 .button-big {
-  padding: 25px;
+  padding: 20px;
 }
 
 /* MENU */
@@ -197,4 +197,31 @@ a {
   text-transform: none;
   text-decoration: underline;
   color: #5586bc;
+}
+
+/* FOOTER */
+footer {
+  height: 162px;
+  line-height: 162px;
+  background-color: #d3d3d3;
+}
+
+footer h2 {
+  width: 40%;
+  margin: 0;
+}
+
+footer ul {
+  width: 60%;
+  text-align: right;
+}
+
+.footer-selection a {
+  text-transform: none;
+  color: #808080;
+  border-bottom: 1px solid #808080;
+}
+
+.footer-selection i{
+  margin-left: 50px;
 }
