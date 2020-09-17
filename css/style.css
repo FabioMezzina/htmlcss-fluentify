@@ -81,9 +81,14 @@ a {
 .main-header {
   height: 560px;
   background-color: #0c325a;
+  background-image: url('../img/background-header.png');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 1000px;
 }
 
 .nav-bar {
+  height: 80px;
   line-height: 80px;
   font-size: 14px;
 }
@@ -108,10 +113,6 @@ a {
 .jumbo {
   position: relative;
   height: 480px;
-  background-image: url('../img/background-header.png');
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: 50%;
 }
 
 .jumbo-text {
