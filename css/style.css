@@ -175,13 +175,14 @@ a {
 }
 
 .info-box h3 {
+  min-height: 100px;
   color: #7cbb02;
   font-size: 28px;
 }
 
 .info-box p::before {
   display: block;
-  margin: 30px auto;
+  margin: 0 auto 30px auto;
   content: '';
   height: 1px;
   width: 80px;
